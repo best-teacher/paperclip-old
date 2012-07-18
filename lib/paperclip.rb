@@ -51,6 +51,7 @@ require 'paperclip/helpers'
 require 'mime/types'
 require 'logger'
 require 'cocaine'
+require 'open-uri'
 
 require 'paperclip/railtie' if defined?(Rails)
 
